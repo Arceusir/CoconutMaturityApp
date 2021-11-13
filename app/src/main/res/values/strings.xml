@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Coconut Maturity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="project_name">Design of a Maturity Checker Device for Coconuts Using Deep Learning</string>
+    <string name="project_info">Information about the Design of a Maturity Checker Device for Coconuts Using Deep Learning</string>
+    <string name="project_description">The project is a coconut maturity checker device using deep learning.
+        The maturity of the coconut would be based on three criterias which are color, shape, and sound. </string>
+    <string name="project_mainObjective">Main Objective:</string>
+    <string name="mainObjective">- The main objective of the project is to design a device that can detect the maturity of the coconut using deep learning
+        that meets the client’s needs in compliance with engineering standards and with consideration of the trade-offs based on the identified constraints. </string>
+    <string name="project_specificObjective">Specific Objectives:</string>
+    <string name="specificObjective1">- To design a prototype that can determine the maturity of the coconut;</string>
+    <string name="specificObjective2">- To capture the color, shape, and sound from knocking off the coconut; and</string>
+    <string name="specificObjective3">- To test and evaluate the accuracy and reliability of the prototype.</string>
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MembersFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/titleConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/side_nav_bar">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="391dp"
+            android:layout_height="184dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/aldrich"
+            android:gravity="center"
+            android:text="Project Members"
+            android:textColor="#1E5128"
+            android:textSize="33sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/aaron"
+            android:layout_width="143dp"
+            android:layout_height="126dp"
+            android:layout_marginTop="224dp"
+            android:src="@drawable/aaron"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.097"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/joshua"
+            android:layout_width="143dp"
+            android:layout_height="126dp"
+            android:layout_marginTop="224dp"
+            android:src="@drawable/joshuat"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.876"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="171dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/belgrano"
+            android:gravity="center_horizontal"
+            android:text="Joshua A. Taway \nData Science"
+            android:textColor="#1E5128"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.904"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/joshua" />
+
+        <ImageView
+            android:id="@+id/angel"
+            android:layout_width="143dp"
+            android:layout_height="126dp"
+            android:layout_marginTop="436dp"
+            android:src="@drawable/angelpic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.473"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="171dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/belgrano"
+            android:gravity="center_horizontal"
+            android:text="Angel G. Eugenio \nIntelligent Systems"
+            android:textColor="#1E5128"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/angel" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="171dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/belgrano"
+            android:gravity="center_horizontal"
+            android:text="Aaron Christopher V. Dalmacio \nData Science"
+            android:textColor="#1E5128"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.079"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/aaron" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

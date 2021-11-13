@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AboutFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/side_nav_bar">
+
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="385dp"
+            android:layout_height="186dp"
+            android:layout_marginTop="1dp"
+            android:fontFamily="@font/belgrano"
+            android:gravity="center"
+            android:paddingTop="40dp"
+            android:paddingBottom="15dp"
+            android:text="@string/project_info"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="577dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="4dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9"
+            android:layout_marginLeft="1dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/belgrano"
+                        android:gravity="center_horizontal"
+                        android:justificationMode="inter_word"
+                        android:paddingStart="14dp"
+                        android:paddingEnd="14dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/project_description"
+                        android:textColor="#000000"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/belgrano"
+                        android:paddingStart="14dp"
+                        android:paddingLeft="14dp"
+                        android:paddingTop="10dp"
+                        android:text="@string/project_mainObjective"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/belgrano"
+                        android:justificationMode="inter_word"
+                        android:paddingStart="25dp"
+                        android:paddingEnd="25dp"
+                        android:text="@string/mainObjective"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/belgrano"
+                        android:paddingStart="14dp"
+                        android:paddingLeft="14dp"
+                        android:paddingTop="15dp"
+                        android:text="@string/project_specificObjective"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/belgrano"
+                        android:justificationMode="inter_word"
+                        android:paddingStart="25dp"
+                        android:paddingTop="7dp"
+                        android:paddingEnd="25dp"
+                        android:text="@string/specificObjective1"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/belgrano"
+                        android:justificationMode="inter_word"
+                        android:paddingStart="25dp"
+                        android:paddingTop="7dp"
+                        android:paddingEnd="25dp"
+                        android:text="@string/specificObjective2"
+                        android:textColor="#000000"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/belgrano"
+                        android:justificationMode="inter_word"
+                        android:paddingStart="25dp"
+                        android:paddingTop="7dp"
+                        android:paddingEnd="25dp"
+                        android:text="@string/specificObjective3"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        android:paddingBottom="15dp"/>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

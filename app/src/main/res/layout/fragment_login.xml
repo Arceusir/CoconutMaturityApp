@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LoginFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/titleConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/side_nav_bar">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="206dp"
+            android:layout_height="339dp"
+            android:layout_marginBottom="396dp"
+            android:src="@drawable/coconut"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="318dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="16dp"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Enter Password"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:password="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/username" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="318dp"
+            android:layout_height="46dp"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:hint="Enter Username"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.499" />
+
+        <Button
+            android:id="@+id/btnSignIn"
+            android:layout_width="181dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="472dp"
+            android:background="@drawable/custom_input"
+            android:fontFamily="sans-serif-black"
+            android:text="Sign in"
+            android:textColor="#71EC8A"
+            android:textSize="15dp"
+            app:backgroundTint="#4E9F3D"
+            app:iconTint="#885555"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="366dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="268dp"
+            android:fontFamily="@font/belgrano"
+            android:gravity="center_horizontal"
+            android:text="Login"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.488"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an Account?"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.172"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.905" />
+
+        <Button
+            android:id="@+id/btnReg"
+            android:layout_width="183dp"
+            android:layout_height="40dp"
+            android:background="@drawable/custom_input"
+            android:fontFamily="sans-serif-black"
+            android:text="Register Now"
+            android:textColor="#73A4DF"
+            app:backgroundTint="#D8E9A8"
+            app:iconTint="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.846"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.92"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

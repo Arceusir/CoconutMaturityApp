@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/titleConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/side_nav_bar">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="387dp"
+            android:layout_height="108dp"
+            android:layout_marginTop="176dp"
+            android:fontFamily="@font/aldrich"
+            android:gravity="center_horizontal"
+            android:text="Coconut Maturity Checker"
+            android:textColor="#1E5128"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="178dp"
+            android:layout_height="139dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/coconut"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/box"
+            android:fontFamily="sans-serif-black"
+            android:text="Coconut Data"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            app:backgroundTint="#0B9A72"
+            app:iconTint="#885555"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.128"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="304dp"
+            android:background="@drawable/box"
+            android:fontFamily="sans-serif-black"
+            android:text="Maturity Types of the Coconut"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            app:backgroundTint="#0B9A72"
+            app:iconTint="#885555"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.887"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="488dp"
+            android:background="@drawable/box"
+            android:fontFamily="sans-serif-black"
+            android:text="Members of the Project"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            app:backgroundTint="#0B9A72"
+            app:iconTint="#885555"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.128"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginTop="488dp"
+            android:background="@drawable/box"
+            android:fontFamily="sans-serif-black"
+            android:text="About Us"
+            android:textColor="@color/white"
+            android:textSize="17dp"
+            app:backgroundTint="#0B9A72"
+            app:iconTint="#885555"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.887"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
